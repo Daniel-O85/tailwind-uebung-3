@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------ Tailwind CSS Link --------->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-------- Formular...Start ---------->
+    <div class="h-screen flex justify-center items-center">
+      <form
+        class="border-double border-4 border-cyan-600 p-3 rounded-lg text-5xl font-serif bg-sky-50 shadow-lg shadow-sky-800 grid gap-5"
+      >
+        <!------ Input Felder...Start ------->
+        Vorname:
+        <input class="bg-sky-600 rounded" type="text" />
+
+        Nachname:
+        <input class="bg-sky-200 rounded" type="text" />
+
+        E-Mail:
+        <input class="bg-sky-600 rounded" type="Email" />
+
+        Telefon:
+        <input class="bg-sky-200 rounded" type="text" />
+        <!------ Input Felder...Ende ------->
+
+        <!------ Textarea...Start ------->
+        Nachricht:
+        <textarea class="bg-sky-600 rounded"></textarea>
+        <!------ Textarea...Ende ------->
+
+        <!------ Button Senden...Start ------->
+        <button class="bg-sky-200 rounded">Senden</button>
+        <!------ Button Senden...Ende ------->
+
+        <!------ Ceckbox Newsletter...Start ------->
+        <div>
+          <input class="h-5" type="checkbox" />
+          <span class="text-sm">Ich möchte den Newsletter abonnieren</span>
+        </div>
+        <!------ Ceckbox Newsletter...Ende ------->
+      </form>
+      <!-------- Formular...Ende ---------->
+    </div>
+  </body>
+</html>
